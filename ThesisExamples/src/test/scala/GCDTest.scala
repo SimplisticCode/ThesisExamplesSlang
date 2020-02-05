@@ -17,7 +17,7 @@ class GCDTest extends FunSuite {
     assert(Z(34) === gcd.gcd(40902,24140))
     assert(Z(9973) === gcd.gcd(49865,69811))
   }
-
+/*
   test("GCD Tail recursive") {
     assert(Z(0) == gcd.gcd1(0,0))
     assert(Z(2) == gcd.gcd1(6,4))
@@ -33,5 +33,5 @@ class GCDTest extends FunSuite {
     assert(Z(34) === gcd.gcd1(40902,24140))
     assert(Z(9973) === gcd.gcd1(49865,69811))
   }
-
+*/
 }
